@@ -1,6 +1,6 @@
 # papysql
 
-## if you download the folder the main functions are located in papysql.py file, you can import them in a script by directly importing that script.
+### if you download the folder the main functions are located in papysql.py file, you can import them in a script by directly importing that papysql.py.
 
 This Library is an interface between Pandas and sqlite3. It gives the possibility to access sql databases.
 
