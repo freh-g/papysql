@@ -1,4 +1,4 @@
-# papysql
+# Papysql
 
 ### if you download the folder the main functions are located in papysql.py file, you can import them in a script by directly importing that papysql.py.
 
