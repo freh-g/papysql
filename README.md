@@ -1,10 +1,20 @@
 # Papysql
 
-### if you download the folder the main functions are located in papysql.py file, you can import them in a script by directly importing that papysql.py.
 
-This Library is an interface between Pandas and sqlite3. It gives the possibility to access sql databases.
+This Library is an interface between Pandas and sqlite3. It gives the possibility to access sql databases and view the tables as pandas DataFrames.
+
+## Installation
+
+The library can be installed through pip:
+
+```
+pip install papysql
+```  
+
+Alternatively you can download the scripts from here, the main functions are located in papysql/papysql.py file that you can place in the same folder and import in your workspace..
 
 After importing the library it have to read the database with the command
+
 ```
 import papysql as pps
 
@@ -12,7 +22,7 @@ db = pps.read(PathToDb)
 
 ```
 
-Following this we can access data in the db with functions list_tables and display_table e.g.
+You can then access data in the db with functions list_tables and display_table e.g.
 
 
 ```
