@@ -26,7 +26,7 @@ You can then access data in the db with functions list_tables and display_table 
 
 
 ```
-pps.display_tables(db)
+pps.list_tables(db)
 #It lists all the tables in the database
 
 pps.display_table(NameOfTheTable,db)
